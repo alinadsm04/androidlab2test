@@ -3,7 +3,6 @@ pluginManagement {
         maven {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/alinadsm04/chat")
-
             credentials {
                 username = "alinadsm04"
                 password = "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"
@@ -20,9 +19,9 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-
     repositories {
         maven {
             url = uri("https://maven.pkg.github.com/alinadsm04/chat")
